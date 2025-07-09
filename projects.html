@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ayoob Al-Delaimy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Projects</h2>
+
+        <article>
+          <h3>MNIST Digit Classification System</h3>
+          <p>Deep Learning System for Handwritten Digit Recognition</p>
+          <iframe
+            width="300"
+            height="180"
+            src="https://drive.google.com/file/d/1YaOzqjaTndZni8Ugl5mBh-C6nxhqjV3c/preview"
+            title="Video Walkthrough"
+            allowfullscreen
+          ></iframe>
+          <ul>
+            <li>
+              Developed a <strong>deep learning</strong> system using
+              <em>PyTorch</em>, achieving <mark>98% accuracy</mark> on MNIST.
+              Optimized <b>training</b> speed and <i>efficiency</i>.
+            </li>
+            <li>
+              Implemented a robust testing and validation framework with
+              automated pipelines and visualization tools, ensuring
+              deployment-ready performance.
+            </li>
+            <li>
+              Engineered an efficient custom data loading and preprocessing
+              system, reducing computational overhead by 40% while maintaining
+              high accuracy.
+            </li>
+            <li>
+              Optimized model architecture by fine-tuning hyperparameters and
+              leveraging convolutional neural networks (CNNs), improving both
+              training efficiency and generalization.
+            </li>
+          </ul>
+          <p>
+            <a
+              href="https://github.com/aaldelaimy/Handwriting-CNN"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </p>
+        </article>
+
+        <article>
+          <h3>DALL·E Image Generation Platform</h3>
+          <p>AI-Powered Image Generation & Sharing Community</p>
+          <video width="300" controls>
+            <source src="assets/video/dalle.mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <ul>
+            <li>
+              Built a full-stack web application using the MERN stack (MongoDB,
+              Express, React, Node.js) to generate and share AI-generated
+              images.
+            </li>
+            <li>
+              Integrated OpenAI's API to allow users to input a script, generate
+              images, and share them with the community, with the ability to
+              search for shared images.
+            </li>
+          </ul>
+          <p>
+            <a
+              href="https://github.com/aaldelaimy/AI-Image-Search"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </p>
+        </article>
+      </section>
+
+      <dialog id="projectDialog">
+        <h3>Project Details</h3>
+        <p>More project details will appear here in future versions.</p>
+      </dialog>
+
+      <template id="projectTemplate">
+        <article>
+          <h3>A Project Title</h3>
+          <p>Description.</p>
+        </article>
+      </template>
+    </main>
+
+    <footer>
+      <address>
+        <a href="mailto:awaldelaimy@gmail.com">awaldelaimy@gmail.com</a>
+      </address>
+    </footer>
+  </body>
+</html>

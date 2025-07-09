@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ayoob Al-Delaimy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Resume</h2>
+
+        <h3>Filter Resume by Category</h3>
+        <form>
+          <label for="resume-filter">Choose a category:</label>
+          <select id="resume-filter" name="category">
+            <optgroup label="Academics">
+              <option value="education">Education</option>
+              <option value="skills">Technical Skills</option>
+            </optgroup>
+            <optgroup label="Professional">
+              <option value="experience">Experience</option>
+              <option value="leadership">Leadership</option>
+            </optgroup>
+          </select>
+        </form>
+
+        <h3>Education</h3>
+        <dl>
+          <dt>B.S. in Computer Engineering</dt>
+          <dd>University of California, San Diego – Expected 2026</dd>
+        </dl>
+
+        <h3>Technical Skills</h3>
+        <ol>
+          <li>Languages: Python, JavaScript, C++, HTML/CSS</li>
+          <li>Tools: Git, VS Code, Figma</li>
+        </ol>
+
+        <h3>Skill Proficiency</h3>
+        <ul>
+          <li>HTML/CSS: <progress value="15" max="100"></progress></li>
+          <li>JavaScript: <progress value="20" max="100"></progress></li>
+          <li>Python: <progress value="85" max="100"></progress></li>
+        </ul>
+
+        <h3>Experience Highlights</h3>
+        <ul>
+          <li>
+            Internship at UCSD – Designed and coded a robotic arm for a research
+            lab
+          </li>
+        </ul>
+
+        <h3>Leadership</h3>
+        <ul>
+          <li>
+            Peer Coach – Supported underclassmen academically and socially
+          </li>
+        </ul>
+
+        <p><a href="resume.pdf" download>Download PDF Resume</a></p>
+
+        <form>
+          <fieldset>
+            <legend>Feedback</legend>
+
+            <label for="topic">Topic:</label>
+            <input list="topics" name="topic" id="topic" />
+            <datalist id="topics">
+              <option value="Resume"></option>
+              <option value="Projects"></option>
+              <option value="Skills"></option>
+            </datalist>
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" cols="40"></textarea>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        <a href="mailto:awaldelaimy@gmail.com">awaldelaimy@gmail.com</a>
+      </address>
+    </footer>
+  </body>
+</html>
